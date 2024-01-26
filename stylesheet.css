@@ -165,3 +165,10 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+.languages .languages_button:hover {
+    transition: ease-in-out;
+    scale: 1.1;
+    border-color: #fff;
+}
+
