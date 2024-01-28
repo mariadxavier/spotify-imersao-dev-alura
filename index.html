@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <!-- estilos: -->
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
 
     <!-- CDN font awesome: -->
     <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon" />
@@ -23,7 +25,7 @@
         <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Logo" />
+                    <img src="././src/assets/icons/logo-spotify.png" alt="Logo" />
                 </a>
             </div>
             <ul>
@@ -66,11 +68,40 @@
             </div>
         </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <div class="arrows"><button class="arrow-left">
+                            <img src="./src/assets/icons/small-left.png" alt="anterior">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="./src/assets/icons/small-right.png" alt="próximo">
+                        </button>
+                    </div>
+
+
+                    <div class="header_search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+
+                    <div class="header_login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </main>
+
     <footer>
         <div class="elements_footer">
             <div class="texts_footer">
                 <p class="text_small">Testar o Premium de graça</p>
-                <p class="text_medium">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</p>
+                <p class="text_medium">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não
+                    precisa de cartão de crédito.</p>
             </div>
             <button>
                 <span>Inscreva-se grátis</span>
