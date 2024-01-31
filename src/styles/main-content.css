@@ -26,8 +26,8 @@
     display: flex;
 }
 
-.header_navigation .navigation .arrow-left {
-    margin-right: 1.25rem;
+.header_navigation .navigation .arrow-left, .header_navigation .arrow-right {
+    margin-right: 1rem;
 }
 
 .arrow-left,
@@ -343,4 +343,13 @@
 
 #result-artist {
     padding: 20px 40px;
+}
+
+.light-up-hover:hover {
+    color: var(--text-base-light);
+}
+
+.scale-up-hover:hover {
+    scale: 1.1;
+    transition: ease-in-out;
 }
