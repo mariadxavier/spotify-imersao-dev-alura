@@ -351,5 +351,5 @@
 
 .scale-up-hover:hover {
     scale: 1.1;
-    transition: ease-in-out;
+    transition: 0.2s ease-in-out;
 }
